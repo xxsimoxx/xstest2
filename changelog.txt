@@ -1,0 +1,52 @@
+==========================================================================================
+                 Canuck CP ClassicPress Theme Change Log
+==========================================================================================
+Version 1.0.8
+-----------------------------------
+* fixed bug in blog page and home page showing closing php tag as text. 
+
+Version 1.0.7
+-----------------------------------
+* fixed missing translations on widget contact form.
+* fixed site title and tagline to not show if the checkbox is checked
+* fixed Error sidebar to not use the the_widget()
+* removed post format code from partials-general posts
+
+Version 1.0.6
+-----------------------------------
+* added header.php, duplicated code from header-no-feature.php, to eliminate The "no header.php" notice in debug mode
+* added option to disallow html in contact form, to eliminate spam
+* fixed typo in message sent notice
+
+Version 1.0.5
+-----------------------------------
+* removed commented out code from style.css
+* remove page-navi function call in index.php because it uses the general-posts template part
+* added apply_filters() to returns in icons.php so development users can set up filters to add svg icons
+
+Version 1.0.4
+-----------------------------------
+* modified the template-contact.php to only load if the Simple Contact Form is enabled
+* ensured that the reCaptcha scripts would not load unless the Simple Contact Form is enabled and the Use reCaptcha is enabled
+* fixed a few css bugs
+
+Version 1.0.3
+-----------------------------------
+* fixed portfolio page image svg color and hover states
+* removed skin color from blog comments form and added 1 px border
+* fixed bug in conditional loading of the contact form widget
+* removed reCaptcha in comments, will reconsider in the future
+
+Version 1.0.2
+-----------------------------------
+* test and adjust for ClassicCommerce
+* review and adjust docs section
+* initial public release
+
+Version 1.0.1
+-----------------------------------
+* added RTL (major change)
+
+Version 1.0.0
+-----------------------------------
+* improved responsive styling in header
